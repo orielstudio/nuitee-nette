@@ -1,0 +1,1 @@
+import{t as e}from"./date.g7qBiGcq.js";for(let t of document.querySelectorAll(`select[data-choix-taux]`))e()>=(t.dataset.bascule??``)&&t.querySelectorAll(`option[data-avant-bascule]`).forEach(e=>e.remove()),t.addEventListener(`change`,()=>{let e=document.getElementById(t.dataset.choixTaux??``);e&&t.value!==``&&(e.value=t.value,e.dispatchEvent(new Event(`change`,{bubbles:!0})))});
